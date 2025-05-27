@@ -24,7 +24,7 @@ export default function RootLayout({
           "min-h-screen bg-white text-slate-900 antialiased",
           inter.className
         )}>
-        <Sidebar /> 
+        <Sidebar/> 
         {children}
       </body>
     </html>
