@@ -117,7 +117,7 @@ export function Sidebar() {
                             justify-center rounded-lg text-muted-foreground 
                             transition-colors hover:text-foreground"
                                 >
-                                    <LogOut className="h-5 w-5" />
+                                    <LogOut className="h-5 w-5 text-red-500" />
                                     <span className="sr-only">Sair</span>
                                 </Link>
                             </TooltipTrigger>
@@ -206,7 +206,7 @@ export function Sidebar() {
                             </nav>
                         </SheetContent>
                     </Sheet>
-                    <h2>Menu</h2>
+                    
 
                 </header>
             </div>
